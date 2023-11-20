@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tarefa 012</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <h1>Escolha uma idade</h1>
+  <form id="formIdade">
+    <label for="idade">Idade:</label>
+
+    <input type="number" id="idade" name="idade" required>
+    <br>
+    <button type="button" onclick="confirmar()">Confirmar</button>
+  </form>
+  <div id="resultado"></div>
+  <img id="imagem" src="/imagens/original.jpg" alt="Imagem da Faixa Etária">
+<table style="width:80%"> 
+<form>
+ <tr>            
+  <th>Faixa etaria</th>
+  <th>Intervalo de idade</th>
+ </tr>
+ <tr>
+      <th>>=0 e <= 2 anos</th>
+      <th>Bébe</th>
+ </tr>
+ <tr>
+      <th>> 2  e < 12 anos </th>
+      <th>Criança</th>
+</tr>
+ <tr>
+          <th>>= 12 e <= 16 anos  </th>
+          <th>Adolescente</th>
+</tr>
+    <tr>
+              <th>> 16 e < 18 anos  </th>
+              <th>Jovem adulto</th>
+</tr>
+ <tr>
+              <th>>= 18 e < 50 anos  </th>
+              <th>Adulto</th>
+</tr>
+<tr>
+                  <th>>= 50 e <= 65 anos </th>
+                  <th>Adulto de meia idade</th>
+</tr>
+<tr>
+                      <th>> 65 anos</th>
+                      <th>Idoso</th>
+</tr>
+<tr>
+                          <th>> 100 anos</th>
+                          <th>Lendário</th>
+</tr>
+<tr>
+                              <th>> 130 anos</th>
+                              <th>Imortal</th>
+</tr>
+
+  
+
+  </form>
+</table>
+  <script src="script.js"></script>
+</body>
+
+</html>
